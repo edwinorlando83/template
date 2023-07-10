@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include gt_food *.css
+recursive-include gt_food *.csv
+recursive-include gt_food *.html
+recursive-include gt_food *.ico
+recursive-include gt_food *.js
+recursive-include gt_food *.json
+recursive-include gt_food *.md
+recursive-include gt_food *.png
+recursive-include gt_food *.py
+recursive-include gt_food *.svg
+recursive-include gt_food *.txt
+recursive-exclude gt_food *.pyc
